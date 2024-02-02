@@ -1,12 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNETㅐ" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <application
         android:label="flutter_chool_check"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAa_aYg2DNDEg0naLWraViYW2wVOYTMfEY"/>
+            android:value="여기에 API키를 입력해 주세요."/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
